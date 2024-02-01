@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: beige;
+    overflow: hidden;
+}
+
+.apresentacao {
+    margin: 10% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao_1 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.apresentacao_1_celina {
+    font-size: 50px;
+    color: rgb(197, 5, 5);    
+}
+
+.apresentacao_1_h2 {
+    font-size: 40px;
+    color: maroon;
+}
+
+.apresentacao_1_paragrafo {
+    font-size: 20px;
+    color: chocolate;
+}
+
+.apresentacao_links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao_linkslink {
+    background-color: white;
+    width: 150px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0;
+    text-decoration: none;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+    width: 55%;
+    height: auto;
+    display: flex;
+    flex-direction: column;   
+}
